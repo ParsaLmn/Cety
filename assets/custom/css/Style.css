@@ -1,10 +1,17 @@
-@import url(../../bootstrap-4.1.3/css/bootstrap.css);
+/* sass 
+
+$red: red;
+
+ sass */
+
+
+@import url(../../bootstrap-4.1.3/css/bootstrap.css);/*importing bootstrap css*/
 
 @font-face {
 	font-family: IRANSansDNF;
 	src: url(../../fonts/iransans/IRANSansDNFaNum.ttf);
 	src: url(../../fonts/iransans/IRANSansDNFaNum.woff2);
-}
+}/*choosing the font*/
 
 * {
 	font-family: IRANSansDNF;
@@ -12,4 +19,4 @@
 	margin: 0 !important;
 	text-decoration: none;
 	list-style: none;
-}
+}/*set some settings for all tags*/
