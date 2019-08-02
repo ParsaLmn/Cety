@@ -1,0 +1,334 @@
+:root {
+	--danger-cety: #ff0033;/*danger*/
+
+	--warning-cety: #ffff00;/*warning*/
+
+    --success-cety: #339966;/*success*/
+    
+	--dark-purple-cety: #330033;/*dark-purple*/
+
+    --dark-cety: #333333;/*dark*/
+    
+    --gray-cety: #666666;/*gray*/
+    
+    --purple-cety: #990099;/*purple maion color*/
+
+    --white-cety: #ffffff;/*white*/
+
+    --light-cety: #f5f5f5;/*light*/
+}
+
+/*color1*/
+.bg-danger-cety {
+	background-color: var(--danger-cety) !important;
+}
+
+.text-danger-cety {
+	color: var(--danger-cety) !important;
+}
+
+.hover-text-danger-cety:hover {
+	color: var(--danger-cety) !important;
+}
+
+.hover-bg-danger-cety:hover {
+	background-color: var(--danger-cety) !important;
+}
+
+.active-text-danger-cety:active {
+	color: var(--danger-cety) !important;
+}
+
+.active-bg-danger-cety:active {
+	background-color: var(--danger-cety) !important;
+}
+
+.focus-text-danger-cety:focus {
+	color: var(--danger-cety) !important;
+}
+
+.focus-bg-danger-cety:focus {
+	background-color: var(--danger-cety) !important;
+}
+
+/*end color1 part*/
+
+--warning-cety*/
+.bg-warning-cety {
+	background-color: var(--warning-cety) !important;
+}
+
+.text-warning-cety {
+	color: var(--warning-cety) !important;
+}
+
+.hover-text-warning-cety:hover {
+	color: var(--warning-cety) !important;
+}
+
+.hover-bg-warning-cety:hover {
+	background-color: var(--warning-cety) !important;
+}
+
+.active-text-warning-cety:active {
+	color: var(--warning-cety) !important;
+}
+
+.active-bg-warning-cety:active {
+	background-color: var(--warning-cety) !important;
+}
+
+.focus-text-warning-cety:focus {
+	color: var(--warning-cety) !important;
+}
+
+.focus-bg-warning-cety:focus {
+	background-color: var(--warning-cety) !important;
+}
+
+/*en--warning-cety part*/
+
+/*success*/
+.bg-success-cety {
+	background-color: var(--success-cety) !important;
+}
+
+.text-success-cety {
+	color: var(--success-cety) !important;
+}
+
+.hover-text-success-cety:hover {
+	color: var(--success-cety) !important;
+}
+
+.hover-bg-success-cety:hover {
+	background-color: var(--success-cety) !important;
+}
+
+.active-text-success-cety:active {
+	color: var(--success-cety) !important;
+}
+
+.active-bg-success-cety:active {
+	background-color: var(--success-cety) !important;
+}
+
+.focus-text-success-cety:focus {
+	color: var(--success-cety) !important;
+}
+
+.focus-bg-success-cety:focus {
+	background-color: var(--success-cety) !important;
+}
+
+/*end success part*/
+
+/*dark-purple*/
+.bg-dark-purple-cety {
+	background-color: var(--dark-purple-cety) !important;
+}
+
+.text-dark-purple-cety  {
+	color: var(--dark-purple-cety) !important;
+}
+
+.hover-text-dark-purple-cety :hover {
+	color: var(--dark-purple-cety) !important;
+}
+
+.hover-bg-dark-purple-cety :hover {
+	background-color: var(--dark-purple-cety) !important;
+}
+
+.active-text-dark-purple-cety :active {
+	color: var(--dark-purple-cety) !important;
+}
+
+.active-bg-dark-purple-cety :active {
+	background-color: var(--dark-purple-cety) !important;
+}
+
+.focus-text-dark-purple-cety :focus {
+	color: var(--dark-purple-cety) !important;
+}
+
+.focus-bg-dark-purple-cety :focus {
+	background-color: var(--dark-purple-cety) !important;
+}
+
+/*end dark-purple part*/
+
+/*dark*/
+.bg-dark-cety  {
+	background-color: var(--dark-cety) !important;
+}
+
+.text-dark-cety {
+	color: var(--dark-cety) !important;
+}
+
+.hover-text-dark-cety:hover {
+	color: var(--dark-cety) !important;
+}
+
+.hover-bg-dark-cety:hover {
+	background-color: var(--dark-cety) !important;
+}
+
+.active-text-dark-cety:active {
+	color: var(--dark-cety) !important;
+}
+
+.active-bg-dark-cety:active {
+	background-color: var(--dark-cety) !important;
+}
+
+.focus-text-dark-cety:focus {
+	color: var(--dark-cety) !important;
+}
+
+.focus-bg-dark-cety:focus {
+	background-color: var(--dark-cety) !important;
+}
+
+/*end dark part*/
+
+/*gray*/
+.bg-gray-cety  {
+	background-color: var(--gray-cety) !important;
+}
+
+.text-gray-cety {
+	color: var(--gray-cety) !important;
+}
+
+.hover-text-gray-cety:hover {
+	color: var(--gray-cety) !important;
+}
+
+.hover-bg-gray-cety:hover {
+	background-color: var(--gray-cety) !important;
+}
+
+.active-text-gray-cety:active {
+	color: var(--gray-cety) !important;
+}
+
+.active-bg-gray-cety:active {
+	background-color: var(--gray-cety) !important;
+}
+
+.focus-text-gray-cety:focus {
+	color: var(--gray-cety) !important;
+}
+
+.focus-bg-gray-cety:focus {
+	background-color: var(--gray-cety) !important;
+}
+
+/*end gray part*/
+
+/*purple*/
+.bg-purple-cety  {
+	background-color: var(--purple-cety) !important;
+}
+
+.text-purple-cety {
+	color: var(--purple-cety) !important;
+}
+
+.hover-text-purple-cety:hover {
+	color: var(--purple-cety) !important;
+}
+
+.hover-bg-purple-cety:hover {
+	background-color: var(--purple-cety) !important;
+}
+
+.active-text-purple-cety:active {
+	color: var(--purple-cety) !important;
+}
+
+.active-bg-purple-cety:active {
+	background-color: var(--purple-cety) !important;
+}
+
+.focus-text-purple-cety:focus {
+	color: var(--purple-cety) !important;
+}
+
+.focus-bg-purple-cety:focus {
+	background-color: var(--purple-cety) !important;
+}
+
+/*end purple part*/
+
+/*white*/
+.bg-white-cety  {
+	background-color: var(--white-cety) !important;
+}
+
+.text-white-cety {
+	color: var(--white-cety) !important;
+}
+
+.hover-text-white-cety:hover {
+	color: var(--white-cety) !important;
+}
+
+.hover-bg-white-cety:hover {
+	background-color: var(--white-cety) !important;
+}
+
+.active-text-white-cety:active {
+	color: var(--white-cety) !important;
+}
+
+.active-bg-white-cety:active {
+	background-color: var(--white-cety) !important;
+}
+
+.focus-text-white-cety:focus {
+	color: var(--white-cety) !important;
+}
+
+.focus-bg-white-cety:focus {
+	background-color: var(--white-cety) !important;
+}
+
+/*end white part*/
+
+/*light*/
+.bg-light-cety  {
+	background-color: var(--light-cety) !important;
+}
+
+.text-light-cety {
+	color: var(--light-cety) !important;
+}
+
+.hover-text-light-cety:hover {
+	color: var(--light-cety) !important;
+}
+
+.hover-bg-light-cety:hover {
+	background-color: var(--light-cety) !important;
+}
+
+.active-text-light-cety:active {
+	color: var(--light-cety) !important;
+}
+
+.active-bg-light-cety:active {
+	background-color: var(--light-cety) !important;
+}
+
+.focus-text-light-cety:focus {
+	color: var(--light-cety) !important;
+}
+
+.focus-bg-light-cety:focus {
+	background-color: var(--light-cety) !important;
+}
+
+/*end light part*/
