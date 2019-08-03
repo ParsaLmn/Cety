@@ -1,7 +1,9 @@
 /*----------import part----------*/
 
-@import url(../../bootstrap-4.1.3/css/bootstrap.css);/*importing bootstrap css*/
-@import url(./Color.css);/*importing color css*/
+@import url(../../bootstrap-4.1.3/css/bootstrap.css);
+/*importing bootstrap css*/
+@import url(./Color.css);
+/*importing color css*/
 
 /*end import part*/
 
@@ -24,11 +26,40 @@
 	list-style: none;
 }
 
-body{
-	background-color: var(--light-cety)
+body {
+	background-color: var(--light-cety);
+	color: var(--dark-cety) !important;
+	width: 100% !important;
 }
 
-.border-none{
+.border-none {
 	border: none;
 }
+
+.nowrap {
+	white-space: nowrap;
+}
+
+button {
+	cursor: pointer;
+}
+
+.space-100 {
+	clear: both;
+	height: 100px;
+}
+
+.space-20 {
+	clear: both;
+	height: 20px;
+}
+
+.twitter-color {
+	color: #1DA1F2;
+}
+
+.instagram-color {
+	color: #d6249f;
+}
+
 /*----------end custom style part----------*/
