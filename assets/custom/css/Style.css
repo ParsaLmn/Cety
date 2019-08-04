@@ -67,4 +67,14 @@ button {
 	padding: 10px 20px !important;
 }
 
+/*
+.breadcrumb-item::before{
+	content: " > " !important;
+}*/
+input::placeholder{
+	color: #e3e3e3 !important;
+}
+textarea::placeholder{
+	color: #e3e3e3 !important;
+}
 /*----------end custom style part----------*/
