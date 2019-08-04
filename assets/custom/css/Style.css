@@ -22,8 +22,9 @@
 	font-family: IRANSansDNF;
 	padding: 0 !important;
 	margin: 0 !important;
-	text-decoration: none;
+	text-decoration: none !important;
 	list-style: none;
+	transition: all 0.3s;
 }
 
 body {
@@ -60,6 +61,10 @@ button {
 
 .instagram-color {
 	color: #d6249f;
+}
+
+.btn{
+	padding: 10px 20px !important;
 }
 
 /*----------end custom style part----------*/

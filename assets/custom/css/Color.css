@@ -4,14 +4,16 @@
 	--warning-cety: #ffff00;/*warning*/
 
     --success-cety: #339966;/*success*/
-    
-	--dark-purple-cety: #330033;/*dark-purple*/
 
     --dark-cety: #333333;/*dark*/
     
     --gray-cety: #666666;/*gray*/
     
-    --purple-cety: #990099;/*purple maion color*/
+	--purple-cety: #990099;/*purple maion color*/
+	
+	--dark-purple-cety: #330033;/*dark-purple*/
+
+	--light-purple-cety: #cc00cc;/*light-purple*/
 
     --white-cety: #ffffff;/*white*/
 
@@ -332,3 +334,38 @@
 }
 
 /*end light part*/
+
+/*light purple*/
+.bg-light-purple-cety  {
+	background-color: var(--light-purple-cety) !important;
+}
+
+.text-light-purple-cety {
+	color: var(--light-purple-cety) !important;
+}
+
+.hover-text-light-purple-cety:hover {
+	color: var(--light-purple-cety) !important;
+}
+
+.hover-bg-light-purple-cety:hover {
+	background-color: var(--light-purple-cety) !important;
+}
+
+.active-text-light-purple-cety:active {
+	color: var(--light-purple-cety) !important;
+}
+
+.active-bg-light-purple-cety:active {
+	background-color: var(---light-purple-cety) !important;
+}
+
+.focus-text-light-purple-cety:focus {
+	color: var(--light-purple-cety) !important;
+}
+
+.focus-bg-light-purple-cety:focus {
+	background-color: var(--light-purple-cety) !important;
+}
+
+/*end light purple part*/

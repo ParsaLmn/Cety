@@ -49,3 +49,43 @@
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--gray-cety);
 }
+.fas.fa-puzzle-piece{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--gray-cety);
+}
+.fa.fa-ruler-combined{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--gray-cety);
+}
+.fa.fa-chart-line{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--gray-cety);
+}
+.fa.fa-lock{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--gray-cety);
+}
+.fa.fa-lock-open{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--gray-cety);
+}
+.fas.fa-tachometer-alt{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--gray-cety);
+}
+.fa.fa-sitemap{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--gray-cety);
+}
+.fa.fa-globe{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--gray-cety);
+}
