@@ -1,0 +1,51 @@
+@import url(../../fontawesome-free-5.10.0-web/css/all.css);
+@import url(../../fontawesome-free-5.10.0-web/css/fontawesome.css);
+@import url(../../custom/css/Color.css);
+
+.fa-15x {
+    font-size: 1.5rem !important;
+}
+
+.fa-08x {
+    font-size: 0.8rem !important;
+}
+
+.fa-06x {
+    font-size: 0.6rem !important;
+}
+
+
+
+.fa.fa-heart {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--gray-cety);
+}
+
+.fa.fa-share-square {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--gray-cety);
+}
+
+.fa.fa-reply {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--gray-cety);
+}
+
+.fa.fa-comment {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--gray-cety);
+}
+.fa.fa-share-alt {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--gray-cety);
+}
+.fa.fa-paper-plane{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--gray-cety);
+}
