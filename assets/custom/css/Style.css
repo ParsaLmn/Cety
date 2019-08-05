@@ -103,4 +103,9 @@ textarea::placeholder {
 	margin-right: 1rem !important;
 }
 
+.post-tags {
+	padding-top: 20px !important;
+	padding-bottom: 20px !important;
+}
+
 /*----------end custom style part----------*/
