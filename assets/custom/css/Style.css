@@ -63,7 +63,7 @@ button {
 	color: #d6249f;
 }
 
-.btn{
+.btn {
 	padding: 10px 20px !important;
 }
 
@@ -71,10 +71,36 @@ button {
 .breadcrumb-item::before{
 	content: " > " !important;
 }*/
-input::placeholder{
+input::placeholder {
 	color: #e3e3e3 !important;
 }
-textarea::placeholder{
+
+textarea::placeholder {
 	color: #e3e3e3 !important;
 }
+
+.border-right-purple {
+	border-right: 5px solid var(--purple-cety);
+}
+
+.comments-list {
+	margin-top: 2rem;
+}
+
+.coment-box {
+	margin-bottom: 2rem;
+}
+
+.comment-box-item {
+	background-color: var(--white-cety);
+	padding: 0.5rem !important;
+	margin-bottom: 1rem !important;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+	border-radius: 0.25rem !important;
+}
+
+.coment-box>.comments-list {
+	margin-right: 1rem !important;
+}
+
 /*----------end custom style part----------*/

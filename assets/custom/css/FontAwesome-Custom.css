@@ -98,3 +98,23 @@
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--gray-cety);
 }
+.fa.fa-search{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--gray-cety);
+}
+.fa.fa-thumbs-up{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--success-cety);
+}
+.fa.fa-thumbs-down{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--danger-cety);
+}
+.fa.fa-reply-all{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--gray-cety);
+}
