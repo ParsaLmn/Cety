@@ -38,24 +38,45 @@ button {
 	cursor: pointer;
 }
 
-input::placeholder {
-	color: #e3e3e3 !important;
-}
-
-textarea::placeholder {
-	color: #e3e3e3 !important;
-}
-
 footer {
 	box-shadow: 0 -0.1rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
+input::placeholder {
+	color: #B3B3B3 !important;
+}
+
+textarea::placeholder {
+	color: #B3B3B3 !important;
+}
+
+input:focus {
+	border-color: var(--purple-cety) !important;
+}
+
+textarea:focus {
+	border-color: var(--purple-cety) !important;
+}
+
+select:focus {
+	border-color: var(--purple-cety) !important;
+}
+
+button:focus {
+	outline: none;
+}
+
+select,
 .fa,
 .fas,
 .fab,
 .fal,
 ::placeholder {
 	text-shadow: none !important;
+}
+
+.form-control:focus {
+	box-shadow: none;
 }
 
 .border-none {
@@ -127,6 +148,17 @@ footer {
 	border-radius: 0.25rem;
 	width: 100%;
 	height: 100%;
+}
+
+.rounded-15px {
+	border-radius: 15px !important;
+}
+
+.search-btn {
+	position: absolute;
+	left: 1%;
+	bottom: 15%;
+	top: 15%;
 }
 
 /*----------end custom style part----------*/
