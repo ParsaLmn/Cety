@@ -25,6 +25,7 @@
 	text-decoration: none !important;
 	list-style: none;
 	transition: all 0.3s;
+	text-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.15) !important;
 }
 
 body {
@@ -33,16 +34,57 @@ body {
 	width: 100% !important;
 }
 
+button {
+	cursor: pointer;
+}
+
+footer {
+	box-shadow: 0 -0.1rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+input::placeholder {
+	color: #B3B3B3 !important;
+}
+
+textarea::placeholder {
+	color: #B3B3B3 !important;
+}
+
+input:focus {
+	border-color: var(--purple-cety) !important;
+}
+
+textarea:focus {
+	border-color: var(--purple-cety) !important;
+}
+
+select:focus {
+	border-color: var(--purple-cety) !important;
+}
+
+button:focus {
+	outline: none;
+}
+
+select,
+.fa,
+.fas,
+.fab,
+.fal,
+::placeholder {
+	text-shadow: none !important;
+}
+
+.form-control:focus {
+	box-shadow: none;
+}
+
 .border-none {
 	border: none;
 }
 
 .nowrap {
 	white-space: nowrap;
-}
-
-button {
-	cursor: pointer;
 }
 
 .space-100 {
@@ -65,18 +107,6 @@ button {
 
 .btn {
 	padding: 10px 20px !important;
-}
-
-/*
-.breadcrumb-item::before{
-	content: " > " !important;
-}*/
-input::placeholder {
-	color: #e3e3e3 !important;
-}
-
-textarea::placeholder {
-	color: #e3e3e3 !important;
 }
 
 .border-right-purple {
@@ -106,6 +136,29 @@ textarea::placeholder {
 .post-tags {
 	padding-top: 20px !important;
 	padding-bottom: 20px !important;
+}
+
+.review-theme {
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	/*display: none;*/
+	visibility: hidden;
+	background-color: var(--dark-cety);
+	border-radius: 0.25rem;
+	width: 100%;
+	height: 100%;
+}
+
+.rounded-15px {
+	border-radius: 15px !important;
+}
+
+.search-btn {
+	position: absolute;
+	left: 1%;
+	bottom: 15%;
+	top: 15%;
 }
 
 /*----------end custom style part----------*/
