@@ -58,28 +58,6 @@ textarea:focus {
 	border-color: var(--purple-cety) !important;
 }
 
-select:focus {
-	border-color: var(--purple-cety) !important;
-}
-
-button:focus {
-	outline: none;
-	box-shadow: none !important;
-}
-
-select,
-.fa,
-.fas,
-.fab,
-.fal,
-::placeholder {
-	text-shadow: none !important;
-}
-
-.form-control:focus {
-	box-shadow: none;
-}
-
 .border-none {
 	border: none;
 }
@@ -106,33 +84,13 @@ select,
 	color: #d6249f;
 }
 
-.btn {
-	padding: 10px 20px !important;
-}
+
 
 .border-right-purple {
 	border-right: 5px solid var(--purple-cety);
 }
 
-.comments-list {
-	margin-top: 2rem;
-}
 
-.coment-box {
-	margin-bottom: 2rem;
-}
-
-.comment-box-item {
-	background-color: var(--white-cety);
-	padding: 0.5rem !important;
-	margin-bottom: 1rem !important;
-	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-	border-radius: 0.25rem !important;
-}
-
-.coment-box>.comments-list {
-	margin-right: 1rem !important;
-}
 
 .post-tags {
 	padding-top: 20px !important;
@@ -162,9 +120,30 @@ select,
 	top: 15%;
 }
 
-.active {
-	color: var(--purple-cety) !important;
+/*----------end custom style part----------*/
+
+/*cooments classes*/
+.comments-list {
+	margin-top: 2rem;
 }
+
+.coment-box {
+	margin-bottom: 2rem;
+}
+
+.comment-box-item {
+	background-color: var(--white-cety);
+	padding: 0.5rem !important;
+	margin-bottom: 1rem !important;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+	border-radius: 0.25rem !important;
+}
+
+.coment-box>.comments-list {
+	margin-right: 1rem !important;
+}
+
+/* end cooments classes*/
 
 /*for side bar or side nad*/
 .sidenav {
@@ -194,5 +173,40 @@ select,
 
 /*end for side bar or side nad*/
 
+/*ovver writing bootstrap*/
+select:focus {
+	border-color: var(--purple-cety) !important;
+}
 
-/*----------end custom style part----------*/
+button:focus {
+	outline: none;
+	box-shadow: none !important;
+}
+
+select,
+.fa,
+.fas,
+.fab,
+.fal,
+::placeholder {
+	text-shadow: none !important;
+}
+
+.form-control:focus {
+	box-shadow: none;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+	position: unset !important;
+}
+
+.active {
+	color: var(--purple-cety) !important;
+}
+
+.btn {
+	padding: 10px 20px !important;
+}
+
+/*end ovver writing bootstrap */
