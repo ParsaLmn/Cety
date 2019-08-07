@@ -61,28 +61,13 @@
 					</div>
 					<!-- end brand name part -->
 
-					<!-- collapse btn  -->
-					<nav class="navbar navbar-expand-lg navbar-light">
-						<button class="navbar-toggler border-none" type="button" data-toggle="collapse"
-							data-target="#menu" aria-controls="menu" aria-expanded="false"
-							aria-label="Toggle navigation">
-							<span class="fa fa-bars text-gray-cety fa-15x"></span>
-						</button>
-
-						<div class="collapse navbar-collapse" id="menu">
-							<ol class="breadcrumb">
-								<li class="breadcrumb-item"><a href="/Home.html"><span>خانه</span></a></li>
-								<li class="breadcrumb-item"><a href="./OrderPage.html"><span>سفارش طراحی سایت</span></a>
-								</li>
-								<li class="breadcrumb-item active" aria-current="page"><span>نمونه کار ها</span></li>
-								<li class="breadcrumb-item"><a href="#"><span>سئو و بهینه سازی سایت</span></a></li>
-								<li class="breadcrumb-item"><a href="./Weblog.html"><span>وبلاگ</span></a></li>
-								<li class="breadcrumb-item"><a href="#"><span>درباره ما</span></a></li>
-								<li class="breadcrumb-item"><a href="#"><span>تماس با ما</span></a></li>
-							</ol>
+					<!-- collapse sidebar or navbar btn  -->
+					<div>
+							<button class="border-none" onclick="openNav()">
+								<span class="fa fa-bars text-gray-cety fa-15x"></span>
+							</button>
 						</div>
-					</nav>
-					<!-- end collapse btn -->
+						<!-- end collapse sidebar or navbar btn -->
 
 				</div>
 				<!--end logo and collapse part-->
@@ -471,6 +456,73 @@
 		<!-- end footer part -->
 
 	</div>
+
+	<!-- side bar or navbar -->
+	<div>
+			<!-- the nav -->
+			<nav class="sidenav pt-1 bg-white-cety" id="Sidenav">
+				<div class="d-flex flex-column">
+					<!-- logo and close btn -->
+					<div class="d-flex flex-row align-items-center justify-content-around">
+						<div class="text-center">
+							<button class="btn border-none text-dark-cety bg-transparent" onclick="closeNav()">
+								<i class="fa fa-times fa-2x"></i>
+							</button><!-- close btn -->
+						</div>
+						<div class="col-7 text-right">
+							<img src="./assets/img/logo/Logo and name fa png.png" alt="cety-logo" width="70px">
+							<!-- logo image -->
+						</div>
+					</div>
+					<!-- end logo and close btn -->
+					<!-- links list -->
+					<div class="w-100 text-center">
+						<ul class="">
+							<li class="border-bottom">
+								<a href="/Home.html">
+									<span class="text-dark-cety">خانه</span>
+								</a>
+							</li>
+							<li class="border-bottom">
+								<a href="./OrderPage.html">
+									<span class="text-dark-cety">سفارش طراحی سایت</span>
+								</a>
+							</li>
+							<li class="border-bottom">
+								<span class="active">نمونه کار ها</span>
+							</li>
+							<li class="border-bottom">
+								<a href="#">
+									<span class="text-dark-cety">سئو و بهینه سازی سایت</span>
+								</a>
+							</li>
+							<li class="border-bottom">
+								<a href="./Weblog.html">
+									<span class="text-dark-cety">وبلاگ</span>
+								</a>
+							</li>
+							<li class="border-bottom">
+								<a href="#">
+									<span class="text-dark-cety">درباره ما</span>
+								</a>
+							</li>
+							<li class="border-bottom">
+								<a href="#">
+									<span class="text-dark-cety">تماس با ما</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- end link list -->
+				</div>
+			</nav>
+			<!-- end nav -->
+	
+			<div class="cover bg-dark-cety" id="cover" onclick="closeNav()"></div><!-- for bg covering -->
+			
+		</div>
+		<!-- end sidebar or navbar -->
+
 </body>
 
 </html>

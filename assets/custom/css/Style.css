@@ -64,6 +64,7 @@ select:focus {
 
 button:focus {
 	outline: none;
+	box-shadow: none !important;
 }
 
 select,
@@ -160,5 +161,38 @@ select,
 	bottom: 15%;
 	top: 15%;
 }
+
+.active {
+	color: var(--purple-cety) !important;
+}
+
+/*for side bar or side nad*/
+.sidenav {
+	height: 120%;
+	width: 0;
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	transition: 0.5s !important;
+	white-space: nowrap;
+	line-height: 2.5rem;
+}
+
+.cover {
+	height: 120%;
+	width: 100%;
+	position: fixed;
+	visibility: hidden;
+	z-index: 999;
+	opacity: 0;
+	top: 0;
+	right: 0;
+	transition: 0.5s !important;
+}
+
+/*end for side bar or side nad*/
+
 
 /*----------end custom style part----------*/
