@@ -13,18 +13,27 @@ function review_links(e) {
 /*side bar or side nav func*/
 
 function openNav() {
-    $("#Sidenav").css({
-        "width": "70%"   //opennign to 70% of the page
-    });
+    //for small screen
+    if (window.innerWidth <768) {
+        $("#Sidenav").css({
+            "width": "70%" //opennign to 70% of the page
+        });
+    }
+    //for bigger screens
+    if (window.innerWidth >= 768) {
+        $("#Sidenav").css({
+            "width": "30%" //opennign to 30% of the page
+        });
+    }
     $("#cover").css({
-        "visibility": "visible",  //making cover visible
+        "visibility": "visible", //making cover visible
         "opacity": "0.7"
     });
 } //for opening side nav and the cover
 
 function closeNav() {
     $("#Sidenav").css({
-        "width": "0"  //seting nav with to 0 for closing it
+        "width": "0" //seting nav with to 0 for closing it
     });
     $("#cover").css({
         "visibility": "hidden", //making cover invisible

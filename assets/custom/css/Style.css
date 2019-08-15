@@ -145,7 +145,7 @@ textarea:focus {
 
 /* end cooments classes*/
 
-/*for side bar or side nad*/
+/*for side bar or side nav*/
 .sidenav {
 	height: 120%;
 	width: 0;
@@ -171,7 +171,7 @@ textarea:focus {
 	transition: 0.5s !important;
 }
 
-/*end for side bar or side nad*/
+/*end for side bar or side nav*/
 
 /*ovver writing bootstrap*/
 select:focus {
