@@ -100,11 +100,13 @@
 				<section>
 
 					<!-- the article -->
-					<article class="">
+					<article class="px-3">
 
 						<!-- article image -->
-						<div class="">
-							<img src="./assets/img/other/seo.jpg" alt="seo-image" class="w-100">
+						<div class="d-flex flex-row justify-content-center">
+							<div class="col-10 col-sm-8 col-md-6 col-lg-4">
+								<img src="./assets/img/other/seo.jpg" alt="seo-image" class="w-100">
+							</div>
 						</div>
 						<!-- end article image -->
 
@@ -126,7 +128,7 @@
 									کاربردهای
 								</span>
 
-								<blockquote class="my-3">
+								<blockquote class="my-3 px-3">
 									<div class="rounded-left shadow bg-white-cety p-2 border-right-purple">
 										<span class="text-gray-cety py-2">یه نکته وسط مقاله
 										</span>
@@ -153,7 +155,7 @@
 							<div class="space-20"></div> <!-- this is for spacing -->
 
 							<!-- writer of the article box -->
-							<blockquote>
+							<blockquote class="my-3 px-3">
 								<div class="rounded-left shadow bg-white-cety py-1 px-2 border-right-purple">
 									<div class="">
 										<span>
@@ -179,9 +181,11 @@
 										<!-- end text part -->
 
 										<!-- image part -->
-										<div class="col-2">
-											<img src="/assets/img/founders/parsa.jpg
-									" alt="parsa-image" width="50px" class="rounded-circle img-thumbnail">
+										<div class="col-2 d-flex justify-content-around">
+											<div class="col-12 col-md-4">
+												<img src="/assets/img/founders/parsa.jpg
+										" alt="parsa-image" width="50px" class="rounded-circle img-thumbnail">
+											</div>
 										</div>
 										<!-- end image part -->
 									</div>
@@ -233,47 +237,49 @@
 					<!-- write comment -->
 					<section>
 						<form>
+							<div class="d-flex flex-column">
+								<!-- comment text -->
+								<div class="form-row justify-content-around">
+									<div class="form-group col-12 col-sm-10 col-md-8">
+										<textarea class="form-control shadow text-gray-cety p-2" id="description"
+											rows="3" placeholder="دیدگاه شما..." value="aaa"></textarea>
+										<!-- text input -->
+									</div>
+								</div>
+								<!-- end comment text -->
 
-							<!-- comment text -->
-							<div class="form-row">
-								<div class="form-group col-12">
-									<textarea class="form-control shadow text-gray-cety p-2" id="description" rows="3"
-										placeholder="دیدگاه شما..."></textarea>
-									<!-- text input -->
+								<div class="space-20"></div> <!-- this is for spacing -->
+
+								<!-- comment name -->
+								<div class="form-row justify-content-around">
+									<div class="form-group col-8 col-sm-6 col-md-4">
+										<input type="text" class="form-control shadow text-gray-cety p-2" id="name"
+											aria-describedby="name" placeholder="نام و نام خانوادگی">
+									</div>
+								</div>
+								<!-- end comments name -->
+
+								<div class="space-20"></div> <!-- this is for spacing -->
+
+								<!-- comments email -->
+								<div class="form-row justify-content-around">
+									<div class="form-group col-8 col-sm-6 col-md-4">
+										<input type="email" class="form-control shadow text-gray-cety p-2" id="email"
+											aria-describedby="emailHelp" placeholder="ایمیل">
+									</div>
+								</div>
+								<!-- end comments email -->
+
+								<div class="space-20"></div> <!-- this is for spacing -->
+
+								<!-- submmit btn -->
+								<div class="pl-3">
+									<button type="submit"
+										class="btn rounded shadow bg-purple-cety text-white-cety hover-bg-light-purple-cety focus-bg-light-purple-cety">
+										ارسال دیدگاه
+									</button>
 								</div>
 							</div>
-							<!-- end comment text -->
-
-							<div class="space-20"></div> <!-- this is for spacing -->
-
-							<!-- comment name -->
-							<div class="form-row">
-								<div class="form-group col-12">
-									<input type="text" class="form-control shadow text-gray-cety p-2" id="name"
-										aria-describedby="name" placeholder="نام و نام خانوادگی">
-								</div>
-							</div>
-							<!-- end comments name -->
-
-							<div class="space-20"></div> <!-- this is for spacing -->
-
-							<!-- comments email -->
-							<div class="form-row">
-								<div class="form-group col-12">
-									<input type="email" class="form-control shadow text-gray-cety p-2" id="email"
-										aria-describedby="emailHelp" placeholder="ایمیل">
-								</div>
-							</div>
-							<!-- end comments email -->
-
-							<div class="space-20"></div> <!-- this is for spacing -->
-
-							<!-- submmit btn -->
-							<button type="submit"
-								class="btn rounded shadow bg-purple-cety text-white-cety hover-bg-light-purple-cety focus-bg-light-purple-cety">
-								ارسال دیدگاه
-							</button>
-
 						</form>
 					</section>
 					<!-- end write comment -->
@@ -285,7 +291,7 @@
 					<div class="space-20"></div> <!-- this is for spacing -->
 
 					<!-- comments list section -->
-					<section>
+					<section class="px-3">
 
 						<!-- title of this section -->
 						<div class="text-purple-cety text-right">
@@ -569,17 +575,20 @@
 						</li>
 						<li class="border-bottom">
 							<a href="./OrderPage.html">
-								<span class="text-dark-cety hover-text-purple-cety focus-text-purple-cety">سفارش طراحی سایت</span>
+								<span class="text-dark-cety hover-text-purple-cety focus-text-purple-cety">سفارش طراحی
+									سایت</span>
 							</a>
 						</li>
 						<li class="border-bottom">
 							<a href="./Work Samples.html">
-								<span class="text-dark-cety hover-text-purple-cety focus-text-purple-cety">نمونه کار ها</span>
+								<span class="text-dark-cety hover-text-purple-cety focus-text-purple-cety">نمونه کار
+									ها</span>
 							</a>
 						</li>
 						<li class="border-bottom">
 							<a href="#">
-								<span class="text-dark-cety hover-text-purple-cety focus-text-purple-cety">سئو و بهینه سازی سایت</span>
+								<span class="text-dark-cety hover-text-purple-cety focus-text-purple-cety">سئو و بهینه
+									سازی سایت</span>
 							</a>
 						</li>
 						<li class="border-bottom">
@@ -589,12 +598,14 @@
 						</li>
 						<li class="border-bottom">
 							<a href="#">
-								<span class="text-dark-cety hover-text-purple-cety focus-text-purple-cety">درباره ما</span>
+								<span class="text-dark-cety hover-text-purple-cety focus-text-purple-cety">درباره
+									ما</span>
 							</a>
 						</li>
 						<li class="border-bottom">
 							<a href="#">
-								<span class="text-dark-cety hover-text-purple-cety focus-text-purple-cety">تماس با ما</span>
+								<span class="text-dark-cety hover-text-purple-cety focus-text-purple-cety">تماس با
+									ما</span>
 							</a>
 						</li>
 					</ul>

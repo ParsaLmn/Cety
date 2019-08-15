@@ -120,6 +120,20 @@ textarea:focus {
 	top: 15%;
 }
 
+.placeholder-lbl{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.clear-btn{
+	position: absolute;
+	top: 9px;
+	/*bottom: 10px;*/
+	left: 0;
+	width: 24px;
+}
+
 /*----------end custom style part----------*/
 
 /*cooments classes*/
@@ -145,7 +159,7 @@ textarea:focus {
 
 /* end cooments classes*/
 
-/*for side bar or side nad*/
+/*for side bar or side nav*/
 .sidenav {
 	height: 120%;
 	width: 0;
@@ -171,7 +185,7 @@ textarea:focus {
 	transition: 0.5s !important;
 }
 
-/*end for side bar or side nad*/
+/*end for side bar or side nav*/
 
 /*ovver writing bootstrap*/
 select:focus {
