@@ -120,6 +120,20 @@ textarea:focus {
 	top: 15%;
 }
 
+.placeholder-lbl{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.clear-btn{
+	position: absolute;
+	top: 9px;
+	/*bottom: 10px;*/
+	left: 0;
+	width: 24px;
+}
+
 /*----------end custom style part----------*/
 
 /*cooments classes*/

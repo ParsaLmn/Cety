@@ -112,21 +112,31 @@
 						<form>
 
 							<!-- name and last name -->
-							<div class="form-row justify-content-between">
+							<div class="form-row justify-content-around">
 
 								<!-- name part -->
-								<div class="col-5 form-group text-right">
-									<label class="pr-2 fa-08x" for="name">نام</label>
-									<input type="text" class="form-control shadow text-dark-cety p-2" id="name"
-										aria-describedby="name" placeholder="رضا"><!-- name input -->
+								<div class="col-5 col-md-4 col-lg-3 form-group text-right">
+									<label class="fa-08x px-1 placeholder-lbl" for="name">نام</label>
+									<input type="text" class="form-control shadow text-dark-cety p-2 pl-4" id="name"
+										aria-describedby="name" onfocus="input_focus(this)" onfocusout="input_focusout(this)"><!-- name input -->
+									<button onclick="clear_input(this)"
+										class="d-none border-0 bg-transparent clear-btn">
+										<i class="fa fa-times-circle text-gray-cety"></i>
+									</button>
+									<!--clear btn-->
 								</div>
 								<!-- end name part -->
 
 								<!-- last name part -->
-								<div class="col-6 form-group text-right">
-									<label class="pr-2 fa-08x" for="lastname">نام خانواگی</label>
-									<input type="text" class="form-control shadow text-dark-cety p-2" id="lastname"
-										aria-describedby="lastname" placeholder="محمدی"><!-- last name input -->
+								<div class="col-6 col-md-4 col-lg-3 form-group text-right">
+									<label class="fa-08x px-1 placeholder-lbl" for="lastname">نام خانواگی</label>
+									<input type="text" class="form-control shadow text-dark-cety p-2 pl-4" id="lastname"
+										aria-describedby="lastname" onfocus="input_focus(this)" onfocusout="input_focusout(this)"><!-- last name input -->
+										<button onclick="clear_input(this)"
+										class="d-none border-0 bg-transparent clear-btn">
+										<i class="fa fa-times-circle text-gray-cety"></i>
+									</button>
+									<!--clear btn-->
 								</div>
 								<!-- end last name part -->
 							</div>
@@ -140,23 +150,33 @@
 							<div class="space-20"></div> <!-- this is for spacing -->
 
 							<!-- phone number and email -->
-							<div class="form-row justify-content-between">
+							<div class="form-row justify-content-around">
 
 								<!-- phone number part -->
-								<div class="col-4 form-group text-right">
-									<label class="pr-2 fa-08x" for="phonenumber">شماره تماس</label>
-									<input type="number" class="form-control shadow text-dark-cety p-2" id="phonenumber"
-										aria-describedby="emailHelp" placeholder="09123139844">
+								<div class="col-4 col-md-4 col-lg-3 form-group text-right">
+									<label class="fa-08x px-1 placeholder-lbl" for="phonenumber">شماره تماس</label>
+									<input type="number" class="form-control shadow text-dark-cety p-2 pl-4" id="phonenumber"
+										aria-describedby="emailHelp" onfocus="input_focus(this)" onfocusout="input_focusout(this)">
 									<!-- phone number input -->
+									<button onclick="clear_input(this)"
+										class="d-none border-0 bg-transparent clear-btn">
+										<i class="fa fa-times-circle text-gray-cety"></i>
+									</button>
+									<!--clear btn-->
 								</div>
 								<!-- end phone number part -->
 
 								<!-- email part -->
-								<div class="col-6 form-group text-right">
-									<label class="pr-2 fa-08x" for="email">ایمیل</label>
-									<input type="email" class="form-control shadow text-left text-dark-cety p-2"
-										id="email" aria-describedby="emailHelp" placeholder="reza@example.com">
+								<div class="col-6 col-md-4 col-lg-3 form-group text-right">
+									<label class="fa-08x px-1 placeholder-lbl" for="email">ایمیل</label>
+									<input type="email" class="form-control shadow text-left text-dark-cety p-2 pl-4"
+										id="email" aria-describedby="emailHelp" onfocus="input_focus(this)" onfocusout="input_focusout(this)">
 									<!-- email input -->
+									<button onclick="clear_input(this)"
+										class="d-none border-0 bg-transparent clear-btn">
+										<i class="fa fa-times-circle text-gray-cety"></i>
+									</button>
+									<!--clear btn-->
 								</div>
 								<!-- end email part -->
 
@@ -167,19 +187,22 @@
 								ضروری
 								است</small>
 
-							<div class="space-20"></div> <!-- this is for spacing -->
-
 							<!-- the jobs name and subject -->
-							<div class="form-row justify-content-between">
-								<div class="col-6 form-group text-right">
-									<label class="pr-2 fa-08x" for="jobsname">عنوان کسب و کار</label>
-									<input type="text" class="form-control shadow text-dark-cety p-2" id="jobsname"
-										aria-describedby="emailHelp" placeholder="فروشگاه ورزشی رضا">
+							<div class="form-row justify-content-around align-items-end">
+								<div class="col-6 col-md-4 col-lg-3 form-group text-right">
+									<label class="fa-08x px-1 placeholder-lbl" for="jobsname">عنوان کسب و کار</label>
+									<input type="text" class="form-control shadow text-dark-cety p-2 pl-4" id="jobsname"
+										aria-describedby="emailHelp" onfocus="input_focus(this)" onfocusout="input_focusout(this)">
 									<!-- jobs name input -->
+									<button onclick="clear_input(this)"
+										class="d-none border-0 bg-transparent clear-btn">
+										<i class="fa fa-times-circle text-gray-cety"></i>
+									</button>
+									<!--clear btn-->
 								</div>
 
 								<!-- job subject  -->
-								<div class="col-4 form-group text-right">
+								<div class="col-4 col-md-4 col-lg-3 form-group text-right">
 									<label class="pr-2 fa-08x" for="websitesubject">نوع وبسایت</label>
 									<div class="input-group" dir="ltr">
 										<select class="custom-select shadow pl-2" id="websitesubject">
@@ -201,8 +224,8 @@
 							<div class="space-20"></div> <!-- this is for spacing -->
 
 							<!-- website address -->
-							<div class="form-row justify-content-between">
-								<div class="col-8 form-group text-right">
+							<div class="form-row justify-content-around">
+								<div class="col-8 col-md-4 col-lg-3 form-group text-right">
 									<label class="pr-2 fa-08x" for="website">آدرس وبسایت</label>
 									<div class="input-group shadow" dir="ltr">
 										<div class="input-group-prepend">
@@ -216,14 +239,14 @@
 							</div>
 							<!-- end website address -->
 
-							<small id="" class="form-text text-danger-cety text-right pt-3">وارد کردن آدرس وبسایت ضروری
+							<small id="" class="form-text text-danger-cety text-center pt-3">وارد کردن آدرس وبسایت ضروری
 								است</small>
 
 							<div class="space-20"></div> <!-- this is for spacing -->
 
 							<!-- description -->
-							<div class="form-row">
-								<div class="col-12 form-group text-right">
+							<div class="form-row justify-content-around">
+								<div class="col-11 col-md-10 col-lg-9 form-group text-right">
 									<div class="form-group">
 										<label class="pr-2 fa-08x" for="description">توضیحات</label>
 										<textarea class="form-control shadow text-dark-cety p-2" id="description"
@@ -303,12 +326,14 @@
 						</li>
 						<li class="border-bottom">
 							<a href="./Work Samples.html">
-								<span class="text-dark-cety hover-text-purple-cety focus-text-purple-cety">نمونه کار ها</span>
+								<span class="text-dark-cety hover-text-purple-cety focus-text-purple-cety">نمونه کار
+									ها</span>
 							</a>
 						</li>
 						<li class="border-bottom">
 							<a href="#">
-								<span class="text-dark-cety hover-text-purple-cety focus-text-purple-cety">سئو و بهینه سازی سایت</span>
+								<span class="text-dark-cety hover-text-purple-cety focus-text-purple-cety">سئو و بهینه
+									سازی سایت</span>
 							</a>
 						</li>
 						<li class="border-bottom">
@@ -318,12 +343,14 @@
 						</li>
 						<li class="border-bottom">
 							<a href="#">
-								<span class="text-dark-cety hover-text-purple-cety focus-text-purple-cety">درباره ما</span>
+								<span class="text-dark-cety hover-text-purple-cety focus-text-purple-cety">درباره
+									ما</span>
 							</a>
 						</li>
 						<li class="border-bottom">
 							<a href="#">
-								<span class="text-dark-cety hover-text-purple-cety focus-text-purple-cety">تماس با ما</span>
+								<span class="text-dark-cety hover-text-purple-cety focus-text-purple-cety">تماس با
+									ما</span>
 							</a>
 						</li>
 					</ul>
