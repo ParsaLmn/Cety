@@ -47,7 +47,7 @@ function closeNav() {
 
 /* for nav bar */
 
-/*on focus function*/
+//on focus function
 function input_focus(inpt) {
     var prnt = $(inpt).parent(); //geting the div parent of the input
     var lbl = $(prnt).children("label"); //geting the label
@@ -62,7 +62,7 @@ function input_focus(inpt) {
 }
 /*end on focus function*/
 
-/*on focus out function*/
+// on focus out function
 function input_focusout(inpt) {
     var prnt = $(inpt).parent(); //geting the div parent of the input
     var lbl = $(prnt).children("label"); //geting the label
@@ -88,15 +88,52 @@ function input_focusout(inpt) {
         $(delete_btn).removeClass("d-none"); //show the clean btn
     }
 }
-/*end on focus out function*/
+//end on focus out function
 
-/*clear input btn function*/
+//clear input btn function
 function clear_input(btn) {
     var prnt = $(btn).parent(); //geting the div parent of the input
     var inpt = $(prnt).children("input"); //geting the input to clear the value
     $(inpt).val(''); //clear the value
     input_focusout(inpt); //calling the focus out function
 }
-/*end clear input btn function*/
+//end clear input btn function
 
 /* end for nav bar */
+
+/* scrol left and right */
+
+function scroll_right() {
+    var insta_posts_section = $('#insta_posts');
+    var insta_width = $(insta_posts_section).children("div").innerWidth() + 16;
+    event.preventDefault();
+    $(insta_posts_section).animate({
+        scrollLeft: "+=" + insta_width + "px"
+    }, "slow");
+} //scrol right btn clicked get the width of insta post and scrol right + 16 padding
+
+function scroll_left() {
+    var insta_posts_section = $('#insta_posts');
+    var insta_width = $(insta_posts_section).children("div").innerWidth() + 16;
+    event.preventDefault();
+    $(insta_posts_section).animate({
+        scrollLeft: "-=" + insta_width + "px"
+    }, "slow");
+} //scrol left btn clicked get the width of insta post and scrol left + 16 padding
+
+/* end scrol left and right */
+
+/* hide and show navbar */
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+    } else {
+        document.getElementById("navbar").style.top = "-120px";
+    }
+    prevScrollpos = currentScrollPos;
+}
+
+/* end hide and show navbar */
