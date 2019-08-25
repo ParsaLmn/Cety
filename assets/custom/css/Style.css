@@ -134,6 +134,19 @@ textarea:focus {
 	width: 24px;
 }
 
+.pb-6{
+	padding-bottom: 6.25rem !important;
+	/* or 100px */
+}
+.pb-7{
+	padding-bottom: 12.5rem !important;
+	/* or 200px */
+}
+.pt-7{
+	padding-top: 12.5rem !important;
+	/* or 200px */
+}
+
 #navbar {
 	position: fixed;
 	top: 0;
