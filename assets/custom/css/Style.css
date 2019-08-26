@@ -18,6 +18,55 @@
 	src: url(../../fonts/iransans/IRANSansDNFaNum.woff2);
 }
 
+@media screen and (max-width: 992px) {
+	.img-shape {
+		background: unset !important;
+	}
+
+	.img-wave {
+		background: unset !important;
+	}
+
+	.img-cage {
+		background: unset !important;
+	}
+
+	.img-intro {
+		display: none !important;
+	}
+	.sidebar{
+		display: block !important;
+	}
+	.menu {
+		display: none !important;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.img-shape {
+		background: url(../../img/bg/shape1.png) no-repeat !important;
+	}
+
+	.img-wave {
+		background: url(../../img/svg/wave.svg) no-repeat bottom !important;
+	}
+
+	.img-cage {
+		background: url(../../img/bg/cage.png) no-repeat bottom left !important;
+		background-size: 25% !important;
+	}
+
+	.img-intro {
+		display: block !important;
+	}
+	.sidebar{
+		display: none !important;
+	}
+	.menu {
+		display: block !important;
+	}
+}
+
 * {
 	font-family: IRANSansDNF;
 	padding: 0 !important;
@@ -90,7 +139,9 @@ textarea:focus {
 	border-right: 5px solid var(--purple-cety);
 }
 
-
+.shadow-bottom{
+	box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
 
 .post-tags {
 	padding-top: 20px !important;
@@ -120,13 +171,13 @@ textarea:focus {
 	top: 15%;
 }
 
-.placeholder-lbl{
+.placeholder-lbl {
 	position: absolute;
 	top: 10px;
 	right: 10px;
 }
 
-.clear-btn{
+.clear-btn {
 	position: absolute;
 	top: 9px;
 	/*bottom: 10px;*/
@@ -134,6 +185,19 @@ textarea:focus {
 	width: 24px;
 }
 
+<<<<<<< HEAD
+.pb-6 {
+	padding-bottom: 6.25rem !important;
+	/* or 100px */
+}
+
+.pb-7 {
+	padding-bottom: 12.5rem !important;
+	/* or 200px */
+}
+
+.pt-7 {
+=======
 .pb-6{
 	padding-bottom: 6.25rem !important;
 	/* or 100px */
@@ -143,6 +207,7 @@ textarea:focus {
 	/* or 200px */
 }
 .pt-7{
+>>>>>>> master
 	padding-top: 12.5rem !important;
 	/* or 200px */
 }
@@ -154,6 +219,31 @@ textarea:focus {
 	display: block;
 	transition: top 0.3s;
 	z-index: 200;
+}
+
+.blob1 {
+	background: url(../../img/svg/blob1.svg) no-repeat center;
+	background-size: 100%;
+}
+
+.blob2 {
+	background: url(../../img/svg/blob2.svg) no-repeat center;
+	background-size: 100%;
+}
+
+.blob3 {
+	background: url(../../img/svg/blob3.svg) no-repeat center;
+	background-size: 100%;
+}
+
+.blob4 {
+	background: url(../../img/svg/blob4.svg) no-repeat center;
+	background-size: 100%;
+}
+
+.blob5 {
+	background: url(../../img/svg/blob5.svg) no-repeat center;
+	background-size: 100%;
 }
 
 /*----------end custom style part----------*/

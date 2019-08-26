@@ -123,7 +123,7 @@ function scroll_left() {
 
 /* end scrol left and right */
 
-/* hide and show navbar */
+/* hide and show header navbar */
 
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function () {
@@ -136,4 +136,4 @@ window.onscroll = function () {
     prevScrollpos = currentScrollPos;
 }
 
-/* end hide and show navbar */
+/* end hide and show header navbar */
