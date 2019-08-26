@@ -1,31 +1,3 @@
-/* on page resize functions */
-$(window).resize(function () {
-    navbar_collapse();
-});
-/* end on page resize functions */
-
-/* on load functions */
-$(document).ready(function () {
-    navbar_collapse();
-});
-/* end on load functions */
-
-/* navbar collapse function */
-function navbar_collapse() {
-    var w=$(window).width();//getting the width of page
-    closeNav();//closeing the side nav
-    if (w <= 991) //mobile mode and collapse the menu or hide the menu
-    {
-        $(".sidebar").removeClass("d-none");
-        $(".menu").addClass("d-none");
-    } else //desktop mode show the menu
-    {
-        $(".sidebar").addClass("d-none");
-        $(".menu").removeClass("d-none");
-    }
-}
-/* end navbar collapse function */
-
 /* this is for viewing the  website,github  links when clicked on work samples */
 
 function review_links(e) {
@@ -151,7 +123,7 @@ function scroll_left() {
 
 /* end scrol left and right */
 
-/* hide and show navbar */
+/* hide and show header navbar */
 
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function () {
@@ -164,4 +136,4 @@ window.onscroll = function () {
     prevScrollpos = currentScrollPos;
 }
 
-/* end hide and show navbar */
+/* end hide and show header navbar */

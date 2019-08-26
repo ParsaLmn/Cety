@@ -18,7 +18,7 @@
 	src: url(../../fonts/iransans/IRANSansDNFaNum.woff2);
 }
 
-@media screen and (min-width: 1px) {
+@media screen and (max-width: 992px) {
 	.img-shape {
 		background: unset !important;
 	}
@@ -32,6 +32,12 @@
 	}
 
 	.img-intro {
+		display: none !important;
+	}
+	.sidebar{
+		display: block !important;
+	}
+	.menu {
 		display: none !important;
 	}
 }
@@ -51,6 +57,12 @@
 	}
 
 	.img-intro {
+		display: block !important;
+	}
+	.sidebar{
+		display: none !important;
+	}
+	.menu {
 		display: block !important;
 	}
 }
