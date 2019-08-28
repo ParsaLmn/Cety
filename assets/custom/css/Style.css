@@ -20,15 +20,16 @@
 
 @media screen and (max-width: 992px) {
 	.img-shape {
-		background: unset !important;
+		background: url(../../img/bg/shape1.png) no-repeat !important;
 	}
 
 	.img-wave {
-		background: unset !important;
+		background: url(../../img/svg/wave.svg) no-repeat bottom !important;
 	}
 
 	.img-cage {
-		background: unset !important;
+		background: url(../../img/bg/cage.png) no-repeat bottom left !important;
+		background-size: 25% !important;
 	}
 
 	.img-intro {
