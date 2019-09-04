@@ -1,3 +1,18 @@
+/* on load functions */
+
+$(document).ready(function () {
+
+    //if there is wpadminbar then give header and main element 32 px margin top
+    if (document.getElementById("wpadminbar") != null) {
+        $("header").addClass("mt-32px");
+        $("main").addClass("mt-32px");
+        $("#Sidenav").addClass("mt-32px");
+    }
+
+});
+
+/* end on load functions */
+
 /* this is for viewing the  website,github  links when clicked on work samples */
 
 function review_links(e) {
