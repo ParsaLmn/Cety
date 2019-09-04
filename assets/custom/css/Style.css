@@ -108,6 +108,31 @@ textarea:focus {
 	border-color: var(--purple-cety) !important;
 }
 
+nav>ul>li>span.active {
+	border-bottom: solid 2px var(--purple-cety);
+}
+
+li:after {
+	display: block;
+	content: '';
+	border-bottom: solid 2px var(--purple-cety);
+	transform: scaleX(0);
+	transition: transform 250ms ease-in-out;
+}
+
+nav>ul>li:after {
+	transform-origin: 50% 50%;
+}
+
+nav>ul>li:hover:after {
+	transform: scaleX(1);
+	transform-origin: 50% 50%;
+} 
+
+.worksamples{
+	cursor: pointer;
+}
+
 .border-none {
 	border: none;
 }
@@ -199,6 +224,10 @@ textarea:focus {
 .pt-7 {
 	padding-top: 12.5rem !important;
 	/* or 200px */
+}
+
+.mt-32px {
+	margin-top: 32px !important;
 }
 
 #navbar {
