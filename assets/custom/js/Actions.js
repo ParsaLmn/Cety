@@ -13,6 +13,17 @@ $(document).ready(function () {
 
 /* end on load functions */
 
+/* on page resize functions */
+
+$(window).resize(function () {
+
+    //on page resize close navside if its open to prevent problem
+    closeNav();
+
+});
+
+/* on page resize functions */
+
 /* this is for viewing the  website,github  links when clicked on work samples */
 
 function review_links(e) {
