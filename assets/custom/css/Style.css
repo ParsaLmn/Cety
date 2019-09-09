@@ -284,7 +284,19 @@ nav>ul>li:hover:after {
 }
 
 .coment-box>.comments-list {
-	margin-right: 1rem !important;
+	margin-right: 1.5rem !important;
+}
+
+.coment-box>.comments-list>.coment-box>.comments-list {
+	margin-right: 1.5rem !important;
+}
+
+.coment-box>.comments-list>.coment-box>.comments-list {
+	margin-right: 1.5rem !important;
+}
+
+.coment-box>.comments-list>.coment-box>.comments-list>.coment-box>.comments-list {
+	margin-right: 0 !important;
 }
 
 /* end cooments classes*/
