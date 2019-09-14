@@ -185,6 +185,7 @@
 										<i class="fa fa-times-circle text-gray-cety"></i>
 									</button>
 									<!--clear btn-->
+									<div class="valid-feedback">وارد کردن نام ضروری است</div> <!-- feedback msg -->
 								</div>
 								<!-- end name part -->
 
@@ -199,15 +200,12 @@
 										<i class="fa fa-times-circle text-gray-cety"></i>
 									</button>
 									<!--clear btn-->
+									<div class="invalid-feedback">وارد کردن نام خانوادگی ضروری است</div>
+									<!-- feedback msg -->
 								</div>
 								<!-- end last name part -->
 							</div>
 							<!-- end name and last name -->
-
-							<small id="" class="form-text text-danger-cety text-right pt-3">وارد کردن نام و نام خانوادگی
-								ضروری
-								است</small>
-
 
 							<div class="space-20"></div> <!-- this is for spacing -->
 
@@ -226,6 +224,8 @@
 										<i class="fa fa-times-circle text-gray-cety"></i>
 									</button>
 									<!--clear btn-->
+									<div class="invalid-feedback">وارد کردن شماره تماس ضروری است</div>
+									<!-- feedback msg -->
 								</div>
 								<!-- end phone number part -->
 
@@ -241,18 +241,15 @@
 										<i class="fa fa-times-circle text-gray-cety"></i>
 									</button>
 									<!--clear btn-->
+									<div class="invalid-feedback">وارد کردن ایمیل ضروری است</div> <!-- feedback msg -->
 								</div>
 								<!-- end email part -->
 
 							</div>
 							<!-- end phone number and email -->
 
-							<small id="" class="form-text text-danger-cety text-right pt-3">وارد کردن شماره تماس و ایمیل
-								ضروری
-								است</small>
-
 							<!-- the jobs name and subject -->
-							<div class="form-row justify-content-around align-items-end">
+							<div class="form-row justify-content-around align-items-center mt-3">
 								<div class="col-6 col-md-4 col-lg-3 form-group text-right">
 									<label class="fa-08x px-1 placeholder-lbl" for="jobsname">عنوان کسب و کار</label>
 									<input type="text" class="form-control shadow text-dark-cety p-2 pl-4" id="jobsname"
@@ -264,6 +261,8 @@
 										<i class="fa fa-times-circle text-gray-cety"></i>
 									</button>
 									<!--clear btn-->
+									<div class="invalid-feedback">وارد کردن عنوان کسب و کار ضروری است</div>
+									<!-- feedback msg -->
 								</div>
 
 								<!-- job subject  -->
@@ -277,14 +276,11 @@
 											<option value="3">نمایشگاهی</option>
 										</select>
 									</div><!-- website subject input -->
+									<div class="invisible">.</div>
 								</div>
 								<!-- end job subject  -->
 							</div>
 							<!-- end jobs name and subject -->
-
-							<small id="" class="form-text text-danger-cety text-right pt-3">وارد عنوان کسب و کار
-								ضروری
-								است</small>
 
 							<div class="space-20"></div> <!-- this is for spacing -->
 
@@ -300,12 +296,11 @@
 											aria-describedby="emailHelp" placeholder="example.com">
 										<!-- website input -->
 									</div>
+									<div class="invalid-feedback">وارد کردن آدرس وبسایت ضروری است</div>
+									<!-- feedback msg -->
 								</div>
 							</div>
 							<!-- end website address -->
-
-							<small id="" class="form-text text-danger-cety text-center pt-3">وارد کردن آدرس وبسایت ضروری
-								است</small>
 
 							<div class="space-20"></div> <!-- this is for spacing -->
 
@@ -324,10 +319,13 @@
 
 							<div class="space-20"></div> <!-- this is for spacing -->
 
-							<button type="submit"
-								class="btn rounded shadow bg-purple-cety text-white-cety hover-bg-light-purple-cety focus-bg-light-purple-cety">
-								تایید
-							</button><!-- sibmit btn -->
+							<div class="col-11 col-md-10 col-lg-9 mx-auto mt-4">
+								<button type="submit"
+									class="btn rounded shadow bg-purple-cety text-white-cety hover-bg-light-purple-cety focus-bg-light-purple-cety">
+									تایید
+								</button>
+							</div>
+							<!-- sibmit btn -->
 						</form>
 					</div>
 					<!-- end form body -->

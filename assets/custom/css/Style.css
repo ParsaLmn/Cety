@@ -365,4 +365,15 @@ select,
 	padding: 10px 20px !important;
 }
 
+.valid-feedback{
+	display: block;
+	margin-top: 10px !important;
+	color: var(--success-cety) !important;
+}
+.invalid-feedback{
+	display: block;
+	margin-top: 10px !important;
+	color: var(--danger-cety) !important;
+}
+
 /*end ovver writing bootstrap */
