@@ -230,6 +230,10 @@ nav>ul>li:hover:after {
 	margin-top: 32px !important;
 }
 
+.mt-46px {
+	margin-top: 46px !important;
+}
+
 #navbar {
 	position: fixed;
 	top: 0;
