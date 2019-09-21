@@ -150,11 +150,12 @@ function scroll_left() {
 
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function () {
+    var nvbr = $("#navbar");
     var currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
-        document.getElementById("navbar").style.top = "0";
+        nvbr.css("top","0px");
     } else {
-        document.getElementById("navbar").style.top = "-120px";
+        nvbr.css("top",(nvbr.innerHeight())*-1);
     }
     prevScrollpos = currentScrollPos;
 }
