@@ -178,21 +178,24 @@
         <nav class="sidenav pt-1 bg-white-cety" id="Sidenav">
             <div class="d-flex flex-column">
                 <!-- logo and close btn -->
-                <div class="d-flex flex-row align-items-center justify-content-around">
+                <div class="d-flex flex-row">
                     <div class="text-center">
                         <button class="btn border-none text-dark-cety bg-transparent" onclick="closeNav()">
                             <i class="fa fa-times fa-2x"></i>
                         </button><!-- close btn -->
                     </div>
-                    <div class="col-7  text-left">
-                        <img src="./assets/img/logo/Logo and name fa png.png" alt="cety-logo" width="70px">
-                        <!-- logo image -->
+                    <div id="sidenav_logo" class="col-3 col-sm-1">
+                        <div class="d-flex w-75">
+                            <a href="./Home.html">
+                                <img src="./assets/img/logo/Logo and name fa png.png" alt="logo-image" class="w-100">
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <!-- end logo and close btn -->
                 <!-- links list -->
                 <div class="w-100 text-center">
-                    <ul class="">
+                    <ul id="sidenavlist">
                         <li class="border-bottom">
                             <a href="./Home.html">
                                 <span class="text-dark-cety hover-text-purple-cety focus-text-purple-cety">خانه</span>
