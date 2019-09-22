@@ -176,11 +176,13 @@ $(window).scroll(function () {
             if (pgYOffset >= 46) {
                 navbar_onscroll();
                 $("header").removeClass("mt-46px");
+                $("#Sidenav").removeClass("mt-46px");
             }
             //on less than 46 px add margin top because of wpadminbar
             else {
                 navbar_onscroll();
                 $("header").addClass("mt-46px");
+                $("#Sidenav").addClass("mt-46px");
             }
         }
         //for lorge devices
@@ -233,7 +235,7 @@ function wpadminbar_mt() {
 
 function rm_sidenavlist_closeNav() {
 
-    $("#sidenavlist").removeAttr('class');
+    $("#sidenavlist ul").removeAttr('class');
 }
 
 /* end remove sidenavlist classes */
@@ -241,8 +243,8 @@ function rm_sidenavlist_closeNav() {
 /* side navbar add class to */
 
 function li_addcls() {
-
-    $("#sidenavlist").children('li').addClass("border-bottom");
+    $("#sidenavlist ul").children('li').unbind('mouseenter mouseleave')
+    $("#sidenavlist ul").children('li').addClass("border-bottom");
 }
 
 /* end side navbar add class to */
