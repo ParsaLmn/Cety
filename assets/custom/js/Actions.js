@@ -10,6 +10,9 @@ $(document).ready(function () {
 
     //add class to sidenavbar li
     li_addcls();
+
+    //for side nav logo in center 
+    sidenavlogo_center();
 });
 
 /* end on load functions */
@@ -23,6 +26,9 @@ $(window).resize(function () {
 
     //margin top if there is wpadminbar
     wpadminbar_mt();
+
+    //for side nav logo in center 
+    sidenavlogo_center();
 });
 
 /* on page resize functions */
@@ -160,7 +166,7 @@ $(window).scroll(function () {
     //if there is no wp admin bar
     if (document.getElementById("wpadminbar") == null) {
         navbar_onscroll();
-    } 
+    }
     //if there is wpadmin bar
     else {
         //for mobile devices
@@ -176,7 +182,7 @@ $(window).scroll(function () {
                 navbar_onscroll();
                 $("header").addClass("mt-46px");
             }
-        } 
+        }
         //for lorge devices
         else {
             navbar_onscroll();
@@ -240,3 +246,16 @@ function li_addcls() {
 }
 
 /* end side navbar add class to */
+
+/* side nav logo in center */
+
+function sidenavlogo_center() {
+    $("#sidenav_logo").removeAttr('class');
+    $("#sidenav_logo").addClass('col-4');
+    $("#sidenav_logo").css({
+        "position": "absolute",
+        "left": "30%",
+    });
+}
+
+/* end side nav logo in center */

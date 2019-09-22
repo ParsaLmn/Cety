@@ -237,8 +237,9 @@
 								<!-- email part -->
 								<div class="col-6 col-md-4 col-lg-3 form-group  text-left">
 									<label class="fa-08x px-1 placeholder-lbl" for="email">ایمیل</label>
-									<input style="direction: ltr !important;padding-left:25px !important" type="email" class="form-control shadow   text-righ text-dark-cety p-2  "
-										id="email" aria-describedby="emailHelp" onfocus="input_focus(this)"
+									<input style="direction: ltr !important;padding-left:25px !important" type="email"
+										class="form-control shadow   text-righ text-dark-cety p-2  " id="email"
+										aria-describedby="emailHelp" onfocus="input_focus(this)"
 										onfocusout="input_focusout(this)">
 									<!-- email input -->
 									<button name="clearbtn" type="button" onclick="clear_input(this)"
@@ -274,7 +275,8 @@
 								<div class="col-4 col-md-4 col-lg-3 form-group  text-left">
 									<label class="pl-2 fa-08x" for="websitesubject">نوع وبسایت</label>
 									<div class="input-group">
-										<select style="text-align: left" class="custom-select shadow pr-2" id="websitesubject">
+										<select style="text-align: left" class="custom-select shadow pr-2"
+											id="websitesubject">
 											<option selected>ورزشی</option>
 											<option value="1">فروشگاهی</option>
 											<option value="2">خدماتی</option>
@@ -295,9 +297,11 @@
 									<label class="pl-2 fa-08x" for="website">آدرس وبسایت</label>
 									<div class="input-group shadow" style="direction: ltr !important">
 										<div class="input-group-prepend">
-											<span style="direction: ltr !important" class="input-group-text px-1">www.</span><!-- place holder -->
+											<span style="direction: ltr !important"
+												class="input-group-text px-1">www.</span><!-- place holder -->
 										</div>
-										<input style="direction: ltr !important" type="text" class="form-control text-dark-cety  p-2" id="website"
+										<input style="direction: ltr !important" type="text"
+											class="form-control text-dark-cety  p-2" id="website"
 											aria-describedby="emailHelp" placeholder="example.com">
 										<!-- website input -->
 									</div>
@@ -366,15 +370,18 @@
 		<nav class="sidenav pt-1 bg-white-cety" id="Sidenav">
 			<div class="d-flex flex-column">
 				<!-- logo and close btn -->
-				<div class="d-flex flex-row align-items-center justify-content-around">
+				<div class="d-flex flex-row">
 					<div class="text-center">
 						<button class="btn border-none text-dark-cety bg-transparent" onclick="closeNav()">
 							<i class="fa fa-times fa-2x"></i>
 						</button><!-- close btn -->
 					</div>
-					<div class="col-7  text-left">
-						<img src="./assets/img/logo/Logo and name fa png.png" alt="cety-logo" width="70px">
-						<!-- logo image -->
+					<div id="sidenav_logo" class="col-3 col-sm-1">
+						<div class="d-flex w-75">
+							<a href="./Home.html">
+								<img src="./assets/img/logo/Logo and name fa png.png" alt="logo-image" class="w-100">
+							</a>
+						</div>
 					</div>
 				</div>
 				<!-- end logo and close btn -->
