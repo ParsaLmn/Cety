@@ -155,13 +155,43 @@ function scroll_left() {
 /* hide and show header navbar */
 
 var prevScrollpos = window.pageYOffset;
-window.onscroll = function () {
+$(window).scroll(function () {
+
+    //if there is no wp admin bar
+    if (document.getElementById("wpadminbar") == null) {
+        navbar_onscroll();
+    } 
+    //if there is wpadmin bar
+    else {
+        //for mobile devices
+        if (window.innerWidth <= 782) {
+            var pgYOffset = window.pageYOffset;
+            //on higher than 46 px remove margin top
+            if (pgYOffset >= 46) {
+                navbar_onscroll();
+                $("header").removeClass("mt-46px");
+            }
+            //on less than 46 px add margin top because of wpadminbar
+            else {
+                navbar_onscroll();
+                $("header").addClass("mt-46px");
+            }
+        } 
+        //for lorge devices
+        else {
+            navbar_onscroll();
+        }
+    }
+});
+
+//function to hide and show navbar
+function navbar_onscroll() {
     var nvbr = $("#navbar");
     var currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
-        nvbr.css("top","0px");
+        nvbr.css("top", "0px");
     } else {
-        nvbr.css("top",(nvbr.innerHeight())*-1);
+        nvbr.css("top", (nvbr.innerHeight()) * -1);
     }
     prevScrollpos = currentScrollPos;
 }
@@ -172,7 +202,7 @@ window.onscroll = function () {
 function wpadminbar_mt() {
 
     if (document.getElementById("wpadminbar") != null) {
-        if(window.innerWidth <=782){
+        if (window.innerWidth <= 782) {
             $("header").addClass("mt-46px");
             $("main").addClass("mt-46px");
             $("#Sidenav").addClass("mt-46px");
@@ -180,8 +210,7 @@ function wpadminbar_mt() {
             $("header").removeClass("mt-32px");
             $("main").removeClass("mt-32px");
             $("#Sidenav").removeClass("mt-32px");
-        }
-        else if (window.innerWidth >782){
+        } else if (window.innerWidth > 782) {
             $("header").addClass("mt-32px");
             $("main").addClass("mt-32px");
             $("#Sidenav").addClass("mt-32px");
@@ -196,7 +225,7 @@ function wpadminbar_mt() {
 
 /* remove sidenavlist all claseed */
 
-function rm_sidenavlist_closeNav(){
+function rm_sidenavlist_closeNav() {
 
     $("#sidenavlist").removeAttr('class');
 }
@@ -205,7 +234,7 @@ function rm_sidenavlist_closeNav(){
 
 /* side navbar add class to */
 
-function li_addcls(){
+function li_addcls() {
 
     $("#sidenavlist").children('li').addClass("border-bottom");
 }
