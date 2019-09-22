@@ -170,7 +170,7 @@ $(window).scroll(function () {
     //if there is wpadmin bar
     else {
         //for mobile devices
-        if (window.innerWidth <= 782) {
+        if (window.innerWidth <= 600) {
             var pgYOffset = window.pageYOffset;
             //on higher than 46 px remove margin top
             if (pgYOffset >= 46) {
@@ -243,7 +243,6 @@ function rm_sidenavlist_closeNav() {
 /* side navbar add class to */
 
 function li_addcls() {
-    $("#sidenavlist ul").children('li').unbind('mouseenter mouseleave')
     $("#sidenavlist ul").children('li').addClass("border-bottom");
 }
 
