@@ -4,6 +4,12 @@ $(document).ready(function () {
 
     //margin top if there is wpadminbar
     wpadminbar_mt();
+
+    //on load remove side navbar ul classes function
+    rm_sidenavlist_closeNav();
+
+    //add class to sidenavbar li
+    li_addcls();
 });
 
 /* end on load functions */
@@ -187,3 +193,21 @@ function wpadminbar_mt() {
     }
 }
 /* end wpadminbar */
+
+/* remove sidenavlist all claseed */
+
+function rm_sidenavlist_closeNav(){
+
+    $("#sidenavlist").removeAttr('class');
+}
+
+/* end remove sidenavlist classes */
+
+/* side navbar add class to */
+
+function li_addcls(){
+
+    $("#sidenavlist").children('li').addClass("border-bottom");
+}
+
+/* end side navbar add class to */
