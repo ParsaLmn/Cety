@@ -35,9 +35,11 @@
 	.img-intro {
 		display: none !important;
 	}
-	.sidebar{
+
+	.sidebar {
 		display: block !important;
 	}
+
 	.menu {
 		display: none !important;
 	}
@@ -60,9 +62,11 @@
 	.img-intro {
 		display: block !important;
 	}
-	.sidebar{
+
+	.sidebar {
 		display: none !important;
 	}
+
 	.menu {
 		display: block !important;
 	}
@@ -79,7 +83,7 @@
 }
 
 body {
-	background-color: var(--light-cety);
+	background-color: var(--light-cety) !important;
 	color: var(--dark-cety) !important;
 	width: 100% !important;
 }
@@ -127,9 +131,9 @@ nav>ul>li:after {
 nav>ul>li:hover:after {
 	transform: scaleX(1);
 	transform-origin: 50% 50%;
-} 
+}
 
-.worksamples{
+.worksamples {
 	cursor: pointer;
 }
 
@@ -165,7 +169,7 @@ nav>ul>li:hover:after {
 	border-right: 5px solid var(--purple-cety);
 }
 
-.shadow-bottom{
+.shadow-bottom {
 	box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
@@ -369,15 +373,39 @@ select,
 	padding: 10px 20px !important;
 }
 
-.valid-feedback{
+.valid-feedback {
 	display: block;
 	margin-top: 10px !important;
 	color: var(--success-cety) !important;
 }
-.invalid-feedback{
+
+.invalid-feedback {
 	display: block;
 	margin-top: 10px !important;
 	color: var(--danger-cety) !important;
 }
 
 /*end ovver writing bootstrap */
+
+/* Animation on scroll*/
+
+.ourservice-animate,
+.whyus-animate,
+.founder1-animate,
+.founder2-animate,
+.founder3-animate,
+.twitter-animate,
+.instagram-animate {
+	opacity: 0;
+}
+
+.ourservice-animate.animated,
+.founder1-animate.animated,
+.founder2-animate.animated,
+.founder3-animate.animated,
+.twitter-animate.animated,
+.instagram-animate.animated {
+	opacity: 1;
+}
+
+/* End Animation on scroll*/
