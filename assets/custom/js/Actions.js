@@ -260,3 +260,50 @@ function sidenavlogo_center() {
 }
 
 /* end side nav logo in center */
+
+/* Animations on scroll */
+$(document).ready(function () {
+
+    $(".ourservice-animate").waypoint(function () {
+        $(".ourservice-animate").addClass("animated fadeInUp");
+    }, {
+        offset: "50%"
+    });
+
+    $(".whyus-animate").waypoint(function () {
+        $(".whyus-animate").addClass("animated fadeInUp");
+    }, {
+        offset: "50%"
+    });
+
+    $(".founder1-animate").waypoint(function () {
+        $(".founder1-animate").addClass("animated slideInUp");
+    }, {
+        offset: "50%"
+    });
+
+    $(".founder2-animate").waypoint(function () {
+        $(".founder2-animate").addClass("animated slideInUp");
+    }, {
+        offset: "50%"
+    });
+
+    $(".founder3-animate").waypoint(function () {
+        $(".founder3-animate").addClass("animated slideInUp");
+    }, {
+        offset: "50%"
+    });
+
+    $(".twitter-animate").waypoint(function () {
+        $(".twitter-animate").addClass("animated fadeInUp");
+    }, {
+        offset: "50%"
+    });
+
+    $(".instagram-animate").waypoint(function () {
+        $(".instagram-animate").addClass("animated fadeInUp");
+    }, {
+        offset: "60%"
+    });
+});
+/* end Animations on scroll */
